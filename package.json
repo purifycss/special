@@ -1,0 +1,28 @@
+{
+  "name": "piq",
+  "version": "0.0.1",
+  "description": "piq",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cpm": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purifycss/specifycss.git"
+  },
+  "author": "Kenny Tran <kenny8tran@gmail.com> (http://github.com/kennyt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purifycss/specifycss/issues"
+  },
+  "homepage": "https://github.com/purifycss/specifycss",
+  "dependencies": {
+    "glob": "^7.0.0",
+    "purify-css": "^1.1.2",
+    "yargs": "^3.32.0"
+  },
+  "bin": {
+    "piq": "./piq.js"
+  }
+}
