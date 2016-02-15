@@ -1,6 +1,6 @@
 {
   "name": "piq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "piq",
   "main": "test.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/purifycss/specifycss",
   "dependencies": {
     "glob": "^7.0.0",
-    "purify-css": "^1.1.2",
+    "purify-css": "^1.1.7",
     "yargs": "^3.32.0"
   },
   "bin": {
