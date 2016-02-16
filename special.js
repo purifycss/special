@@ -13,14 +13,18 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 var args = argv._;
 
 function purifyFile() {
-  var filePattern = glob.sync('node_modules/**/' + args[1] + '.css');
+  var filePaths = glob.sync('node_modules/' + args[1] + '/**/*.css')
+    .filter(function (filePath) {
+      // Ignore minified files.
+      return filePath.indexOf('.min') === -1;
+    });
   var selectedSelectors = args.slice(2);
   var purifyOptions = {
     output: './purified.css',
     whitelist: selectedSelectors
   };
 
-  purify(selectedSelectors, filePattern, purifyOptions);
+  purify('', filePaths, purifyOptions);
   console.log('Installed:', selectedSelectors);
 }
 

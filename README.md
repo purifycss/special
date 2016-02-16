@@ -2,11 +2,11 @@ Very early stages.
 
 ### In your CLI
 ```
-npm install --save piq
+npm install --save special
 ```
 
 ```
-$ piq install bootstrap *modal*
+$ special install bootstrap *modal*
 ```
 
 <br />

@@ -1,7 +1,7 @@
 {
-  "name": "piq",
-  "version": "0.0.2",
-  "description": "piq",
+  "name": "special",
+  "version": "0.0.1",
+  "description": "special install css",
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,6 +23,11 @@
     "yargs": "^3.32.0"
   },
   "bin": {
-    "piq": "./piq.js"
-  }
+    "special": "./special.js"
+  },
+  "files": [
+    "special.js",
+    "package.json",
+    "README.md"
+  ]
 }
