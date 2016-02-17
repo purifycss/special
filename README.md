@@ -11,7 +11,7 @@ $ special install bootstrap *modal*
 
 <br />
 
-A file named <b>`purified.css`</b> will be created containing only the modal styles from bootstrap.
+A file named <b>`special.css`</b> will be created containing only the modal styles from bootstrap.
 
 ```css
 
@@ -56,3 +56,27 @@ A file named <b>`purified.css`</b> will be created containing only the modal sty
 }
 /* file trimmed */
 ```
+
+### With a config
+```js
+// Example config file
+// special.config.js
+module.exports = {
+  packages: {
+    bootstrap: {
+      selectors: ['*modal*']
+    },
+
+    'normalize.css': {
+      selectors: ['**']
+    }
+  }
+};
+```
+
+CLI
+```
+special install
+```
+
+Will create a `special.css` file made up of all the selectors from `normalize.css` with the addition to all `modal` selectors from bootstrap.
