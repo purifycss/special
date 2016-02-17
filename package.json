@@ -1,22 +1,21 @@
 {
   "name": "special",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "special install css",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cpm": "./test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/purifycss/specifycss.git"
+    "url": "https://github.com/purifycss/special.git"
   },
   "author": "Kenny Tran <kenny8tran@gmail.com> (http://github.com/kennyt)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/purifycss/specifycss/issues"
+    "url": "https://github.com/purifycss/special/issues"
   },
-  "homepage": "https://github.com/purifycss/specifycss",
+  "homepage": "https://github.com/purifycss/special",
   "dependencies": {
     "glob": "^7.0.0",
     "purify-css": "^1.1.7",
