@@ -74,9 +74,9 @@ module.exports = {
 };
 ```
 
-CLI
+**Then, in your CLI do**
 ```
 special install
 ```
 
-Will create a `special.css` file made up of all the selectors from `normalize.css` with the addition to all `modal` selectors from bootstrap.
+And it will create a `special.css` file made up of all the selectors from `normalize.css` with the addition to all `modal` selectors from bootstrap.
